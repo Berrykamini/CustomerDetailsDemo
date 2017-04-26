@@ -1,0 +1,14 @@
+{
+  "customer":
+  [
+   {
+    "startDate": 1492729200000,
+    "lastName": "Berry",
+    "subscriptionRate": "67",
+    "customerId": 1234,
+    "lastBill": "45",
+    "address": "33 batman street",
+    "firstName": "Kamini"
+    }
+  ]
+}

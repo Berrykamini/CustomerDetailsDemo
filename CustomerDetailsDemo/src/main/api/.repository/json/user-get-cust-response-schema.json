@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "customer": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "customerId": {
+      "type": "string"
+    },
+    "subscriptionRate": {
+        "type": "string"
+    },
+    "startDate": {
+      "type": "date-only"
+    },
+    "lastBill": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "firstName",
+    "lastName",
+    "subscriptionRate",
+    "startDate",
+    "lastBill",
+    "address"
+  ],
+  "type": "object"
+}
